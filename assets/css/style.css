@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
-
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Noto Sans SC', 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -54,7 +52,6 @@ header p {
 
 nav {
     background: rgba(52, 73, 94, 0.9);
-    backdrop-filter: blur(10px);
     padding: 15px;
     text-align: center;
     position: sticky;
@@ -99,7 +96,6 @@ nav a:hover::after {
     margin: 30px auto;
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.2);
