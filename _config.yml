@@ -1,7 +1,14 @@
 title: 我的博客
 description: 分享我的想法和经验
-url: https://yourusername.github.io
+url: https://ang-eiz.github.io/
 baseurl: /zozoblog
+
+author: Zozo
+twitter_username: 
+social:
+  name: zozo的博客
+  links:
+    - https://github.com/ang-eiz
 
 # Build settings
 markdown: kramdown
