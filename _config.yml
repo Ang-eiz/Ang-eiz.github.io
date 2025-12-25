@@ -1,0 +1,31 @@
+title: 我的博客
+description: 分享我的想法和经验
+url: https://yourusername.github.io
+baseurl: /zozoblog
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /newblog/:name/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - .bundle
