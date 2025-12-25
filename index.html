@@ -1,1 +1,149 @@
-<h1>这是我的blog</h1>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客 - 首页</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ecf0f1;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .hero {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #ecf0f1;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .hero h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .posts {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .post {
+            flex: 1 1 calc(50% - 20px);
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .post h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .post p {
+            line-height: 1.6;
+        }
+        .read-more {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .read-more:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .posts {
+                flex-direction: column;
+            }
+            .post {
+                flex: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>我的博客</h1>
+        <p>分享我的想法和经验</p>
+    </header>
+    <nav>
+        <a href="#">首页</a>
+        <a href="#">关于</a>
+        <a href="#">博客</a>
+        <a href="#">联系</a>
+    </nav>
+    <div class="container">
+        <section class="hero">
+            <h2>欢迎来到我的博客</h2>
+            <p>这里是我分享技术、生活和想法的地方。希望你能在这里找到有用的信息。</p>
+        </section>
+        <section class="posts">
+            <article class="post">
+                <h3>第一篇博客文章</h3>
+                <p>这是我的第一篇博客文章的简介。在这里，我会分享一些有趣的内容...</p>
+                <a href="newblog/1.html" class="read-more">阅读更多</a>
+            </article>
+            <article class="post">
+                <h3>第二篇博客文章</h3>
+                <p>这是第二篇博客文章的预览。继续阅读以了解更多...</p>
+                <a href="#" class="read-more">阅读更多</a>
+            </article>
+            <article class="post">
+                <h3>第三篇博客文章</h3>
+                <p>第三篇博客文章的内容摘要。点击下方链接查看完整文章。</p>
+                <a href="#" class="read-more">阅读更多</a>
+            </article>
+            <article class="post">
+                <h3>第四篇博客文章</h3>
+                <p>第四篇博客文章的介绍。欢迎阅读！</p>
+                <a href="#" class="read-more">阅读更多</a>
+            </article>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 我的博客. 保留所有权利.</p>
+    </footer>
+</body>
+</html>
